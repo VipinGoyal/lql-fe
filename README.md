@@ -31,9 +31,17 @@ A comprehensive healthcare management system built with Next.js and Tailwind CSS
    npm install
    ```
 3. Run the development server:
+
    ```bash
    npm run start:dev
    ```
+
+4. Edit the `.env` file with the following content:
+
+```env
+NEXT_PUBLIC_API_URL=http://localhost:3000
+```
+
 4. Open [http://localhost:8080](http://localhost:8080) in your browser
 
 ## Project Structure
